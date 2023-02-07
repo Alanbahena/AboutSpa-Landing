@@ -1,0 +1,34 @@
+@import "../../styles/global.scss";
+
+.container {
+  grid-column: center-start / center-end;
+  grid-row: 1 / 2;
+
+  display: grid;
+  grid-template-rows: min-content 1fr;
+
+  grid-template-columns:
+    [center-start] repeat(6, [col-start] minmax(min-content, 20rem) [col-end])
+    [center-end];
+
+  &-text {
+    grid-column: center-start / center-end;
+    align-self: center;
+    width: 60%;
+
+    @include respond(tab-port) {
+      width: 90%;
+    }
+
+    & span {
+      color: $color-white;
+      font-family: $header-font-family;
+      font-weight: 300;
+      font-size: 2.4rem;
+    }
+
+    .btn {
+      margin-top: 2rem;
+    }
+  }
+}

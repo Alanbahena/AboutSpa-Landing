@@ -1,0 +1,50 @@
+@import "../../styles/global.scss";
+
+.image {
+  grid-column: full-start / full-end;
+  grid-row: 1 / 2;
+  z-index: -10;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.layer {
+  grid-column: full-start / full-end;
+  grid-row: 1 / 2;
+  z-index: -9;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color-layer, $alpha: 0.5);
+}
+
+// DOTS
+
+.dots-container {
+  grid-column: full-start / full-end;
+  grid-row: 1 / 2;
+  z-index: -5;
+
+  display: flex;
+  gap: 1rem;
+  justify-self: center;
+  align-self: flex-end;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.dot {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: rgba($color-white, $alpha: 0.3);
+  border-radius: 50%;
+}
+
+.dot-selected {
+  height: 1.9rem;
+  width: 1.9rem;
+  background-color: white;
+  border-radius: 50%;
+}

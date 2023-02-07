@@ -1,8 +1,12 @@
 import React from "react";
 import clasess from "./Layout.module.scss";
 
-const Layout = () => {
-  return <div className={clasess.container}>Hello from Layout</div>;
+interface Props {
+  children?: React.ReactNode;
+}
+
+const Layout: React.FC<Props> = (props) => {
+  return <div className={clasess.container}>{props.children}</div>;
 };
 
 export default Layout;

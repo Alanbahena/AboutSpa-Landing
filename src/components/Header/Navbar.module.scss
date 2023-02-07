@@ -1,0 +1,45 @@
+@import "../../styles/global.scss";
+
+.container {
+  grid-column: center-start / center-end;
+  grid-row: 1 / 2;
+  margin: 3rem 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  @include respond(tab-port) {
+    justify-content: center;
+  }
+
+  & img {
+    width: 130px;
+    height: 80px;
+  }
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  align-content: center;
+  gap: 6rem;
+
+  @include respond(tab-port) {
+    display: none;
+  }
+}
+
+.link {
+  &:link,
+  &:visited {
+    color: $color-white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+
+    &:hover {
+      color: $color-secondary;
+    }
+  }
+}

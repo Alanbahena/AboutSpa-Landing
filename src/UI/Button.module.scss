@@ -1,0 +1,25 @@
+@import "../styles/global.scss";
+
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: $color-dark;
+
+    background-color: $color-secondary;
+    padding: 1rem 3rem;
+    transition-duration: 0.4s;
+  }
+
+  &:hover {
+    transform: translateY(-0.15rem);
+    transition: transform 0.3s;
+    box-shadow: 0 1rem 2rem rgba($color-dark, 0.1);
+  }
+}

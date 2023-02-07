@@ -15,8 +15,8 @@
 
   /* Typography */
   @include headingFontFamily();
-  color: $color-primary-light;
-  font-weight: 600;
+  color: $color-white;
+  font-weight: 800;
 }
 
 @mixin resetH1 {
