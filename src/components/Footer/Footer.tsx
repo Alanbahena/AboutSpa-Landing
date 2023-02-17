@@ -41,7 +41,7 @@ const Footer = () => {
             <img src={fb} alt="Icon 2"></img>
           </a>
         </div>
-        <span>© 2023 About Me. All Rights Reserved.</span>
+        <span>© 2023 AboutMe. All Rights Reserved.</span>
       </div>
     </Fragment>
   );
