@@ -6,9 +6,20 @@ import fb from "../../assets/images/fb.png";
 import clasess from "./Footer.module.scss";
 
 const Footer = () => {
-  const handlerSubmit = () => {
-    console.log("Hello From the client side");
+  const handleClickTreatments = () => {
+    document
+      .getElementById("#treatments")!
+      .scrollIntoView({ behavior: "smooth" });
   };
+
+  const handleClickDoctors = () => {
+    document.getElementById("#doctors")!.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleClickContact = () => {
+    document.getElementById("#contact")!.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <Fragment>
       <div className={clasess.background}></div>
@@ -16,12 +27,12 @@ const Footer = () => {
         <div className={clasess["container-links"]}>
           <img src={logo} alt="logo"></img>
           <div>
-            <span>Treatments</span>
-            <span>About</span>
-            <span>Contact</span>
+            <span onClick={handleClickTreatments}>Treatments</span>
+            <span onClick={handleClickDoctors}>About</span>
+            <span onClick={handleClickContact}>Contact</span>
           </div>
         </div>
-        <div className={clasess["container-newsletter"]}>
+        {/* <div className={clasess["container-newsletter"]}>
           <h3>Sign up for our Newsletter</h3>
           <div className={clasess["container-newsletter__form"]}>
             <form>
@@ -37,7 +48,7 @@ const Footer = () => {
               </button>
             </form>
           </div>
-        </div>
+        </div> */}
         <div className={clasess["container-social"]}>
           <a href="https://www.instagram.com/aboutme.tj/">
             <img src={instagram} alt="Icon 1"></img>
