@@ -14,8 +14,9 @@ const Content = () => {
         <div className={clasess["container-text"]}>
           <span>MEDICAL SPA</span>
           <h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor
+            {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor */}
+            Time to be beautiful, time to feel confident in your own skin.
           </h1>
           <Button href="/" chidlren="Book Now" className={clasess.btn}></Button>
         </div>
