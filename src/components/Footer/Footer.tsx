@@ -6,6 +6,9 @@ import fb from "../../assets/images/fb.png";
 import clasess from "./Footer.module.scss";
 
 const Footer = () => {
+  const handlerSubmit = () => {
+    console.log("Hello From the client side");
+  };
   return (
     <Fragment>
       <div className={clasess.background}></div>
@@ -29,8 +32,10 @@ const Footer = () => {
                 type="email"
                 id="email"
               ></input>
+              <button type="submit" onClick={handlerSubmit}>
+                Sign Up
+              </button>
             </form>
-            <button type="submit">Sign Up</button>
           </div>
         </div>
         <div className={clasess["container-social"]}>
