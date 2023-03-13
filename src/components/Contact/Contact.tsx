@@ -25,7 +25,7 @@ const Contact = () => {
   const zoom = 13;
 
   return (
-    <div className={clasess.container}>
+    <div className={clasess.container} id="#contact">
       <div className={clasess["container-text"]}>
         <h2>CONTACT US</h2>
         <div className={clasess["container-text__box"]}>

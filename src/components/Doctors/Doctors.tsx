@@ -8,7 +8,7 @@ const Doctors = () => {
   return (
     <Fragment>
       <div className={clasess.background}></div>
-      <div className={clasess.container}>
+      <div className={clasess.container} id="#doctors">
         <div className={clasess["container-content"]}>
           <img src={Doctor1} alt="Doctor"></img>
           <div>

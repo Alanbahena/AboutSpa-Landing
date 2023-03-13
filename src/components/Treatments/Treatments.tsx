@@ -5,7 +5,7 @@ import clasess from "./Treatments.module.scss";
 
 const Treatments = () => {
   return (
-    <div className={clasess.container}>
+    <div className={clasess.container} id="#treatments">
       <h2>
         OUR <span>TOP</span> TREATMENTS
       </h2>
