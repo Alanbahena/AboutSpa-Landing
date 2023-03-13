@@ -11,7 +11,7 @@
   grid-template-rows: repeat(2, min-content);
 
   &-text {
-    background-color: rgba($color-primary, $alpha: 0.8);
+    background: radial-gradient(#270e2f, #6e5e74 200%);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding-top: 10rem;

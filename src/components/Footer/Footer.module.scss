@@ -3,7 +3,7 @@
 .background {
   grid-row: 7 / 8;
   grid-column: full-start / full-end;
-  background-color: $color-primary;
+  background: radial-gradient(#270e2f, #6e5e74 200%);
 }
 
 .container {
@@ -145,6 +145,7 @@
     justify-self: center;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    opacity: 0.85;
 
     @include respond(tab-port) {
       grid-row: 3 / 4;

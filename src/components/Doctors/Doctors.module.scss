@@ -5,7 +5,7 @@
   grid-row: 4 / 5;
 
   width: 100%;
-  background-color: $color-primary;
+  background: radial-gradient(#270e2f, #6e5e74 130%);
   clip-path: polygon(0% 0%, 100% 13%, 100% 100%, 0% 87%);
 
   @include respond(tab-port) {
