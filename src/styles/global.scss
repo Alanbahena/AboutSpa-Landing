@@ -30,6 +30,7 @@ html {
 body {
   /* Typography */
   @include bodyElement();
+  overflow-x: hidden;
 }
 
 // TYPOGRAPHY
