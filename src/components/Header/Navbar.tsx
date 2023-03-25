@@ -32,7 +32,7 @@ const NavBar = () => {
         <li className={clasess.item} onClick={handleClickContact}>
           Contact
         </li>
-        <Button href="/" chidlren="Book Now"></Button>
+        <Button href="https://wa.me/526633218306" chidlren="Book Now"></Button>
       </ul>
     </div>
   );
