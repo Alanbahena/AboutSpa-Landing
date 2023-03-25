@@ -12,7 +12,7 @@ const Doctors = () => {
         <div className={clasess["container-content"]}>
           <img src={Doctor1} alt="Doctor"></img>
           <div>
-            <h3>DR.MIGUEL MAGAÑA</h3>
+            <h3>DR.MAGAÑA</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -25,7 +25,7 @@ const Doctors = () => {
         </div>
         <div className={clasess["container-content"]}>
           <div>
-            <h3>DR.MIGUEL MAGAÑA</h3>
+            <h3>DR.MAGAÑA</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -42,7 +42,7 @@ const Doctors = () => {
         <div className={clasess["container-content"]}>
           <img src={Doctor1} alt="Doctor"></img>
           <div>
-            <h3>DR.MIGUEL MAGAÑA</h3>
+            <h3>DR.MAGAÑA</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -55,7 +55,7 @@ const Doctors = () => {
         </div>
         <div className={clasess["container-content"]}>
           <div>
-            <h3>DR.MIGUEL MAGAÑA</h3>
+            <h3>DR.MAGAÑA</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
