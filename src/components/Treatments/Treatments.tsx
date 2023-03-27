@@ -13,7 +13,7 @@ const Treatments = () => {
         <div className={clasess["container-card"]}>
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
-            <img src={image1} alt=""></img>
+            <img src={image1} alt="" loading="lazy"></img>
             <h3>TREATMENT 1</h3>
           </div>
           <p>
@@ -25,7 +25,7 @@ const Treatments = () => {
         <div className={clasess["container-card"]}>
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
-            <img src={image1} alt=""></img>
+            <img src={image1} alt="" loading="lazy"></img>
             <h3>TREATMENT 2</h3>
           </div>
           <p>
@@ -37,7 +37,7 @@ const Treatments = () => {
         <div className={clasess["container-card"]}>
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
-            <img src={image1} alt=""></img>
+            <img src={image1} alt="" loading="lazy"></img>
             <h3>TREATMENT 3</h3>
           </div>
           <p>
@@ -49,7 +49,7 @@ const Treatments = () => {
         <div className={clasess["container-card"]}>
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
-            <img src={image1} alt=""></img>
+            <img src={image1} alt="" loading="lazy"></img>
             <h3>TREATMENT 1</h3>
           </div>
           <p>
@@ -61,7 +61,7 @@ const Treatments = () => {
         <div className={clasess["container-card"]}>
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
-            <img src={image1} alt=""></img>
+            <img src={image1} alt="" loading="lazy"></img>
             <h3>TREATMENT 4</h3>
           </div>
           <p>
@@ -73,7 +73,7 @@ const Treatments = () => {
         <div className={clasess["container-card"]}>
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
-            <img src={image1} alt=""></img>
+            <img src={image1} alt="" loading="lazy"></img>
             <h3>TREATMENT 5</h3>
           </div>
           <p>
