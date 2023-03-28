@@ -3,6 +3,8 @@ import React, { Fragment } from "react";
 import logo from "../../assets/images/logo-white.png";
 import instagram from "../../assets/images/instagram.png";
 import fb from "../../assets/images/fb.png";
+import tik from "../../assets/images/tiktok.png";
+
 import clasess from "./Footer.module.scss";
 
 const Footer = () => {
@@ -55,6 +57,9 @@ const Footer = () => {
           </a>
           <a href="https://www.facebook.com/Aboutme.medspa">
             <img src={fb} alt="Icon 2"></img>
+          </a>
+          <a href="https://www.tiktok.com/@aboutme.tj">
+            <img src={tik} alt="Icon 2"></img>
           </a>
         </div>
         <span>© 2023 AboutMe. All Rights Reserved.</span>
