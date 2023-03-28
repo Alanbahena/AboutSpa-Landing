@@ -53,13 +53,13 @@ const Footer = () => {
         </div> */}
         <div className={clasess["container-social"]}>
           <a href="https://www.instagram.com/aboutme.tj/">
-            <img src={instagram} alt="Icon 1"></img>
+            <img src={instagram} alt="Icon 1" className={clasess.icons}></img>
           </a>
           <a href="https://www.facebook.com/Aboutme.medspa">
-            <img src={fb} alt="Icon 2"></img>
+            <img src={fb} alt="Icon 2" className={clasess.icons}></img>
           </a>
           <a href="https://www.tiktok.com/@aboutme.tj">
-            <img src={tik} alt="Icon 2"></img>
+            <img src={tik} alt="Icon 2" className={clasess.icons}></img>
           </a>
         </div>
         <span>© 2023 AboutMe. All Rights Reserved.</span>
