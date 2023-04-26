@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useRef } from "react";
 
 import logo from "../../assets/images/logo-white.png";
 import instagram from "../../assets/images/instagram.png";
@@ -8,6 +8,8 @@ import tik from "../../assets/images/tiktok.png";
 import clasess from "./Footer.module.scss";
 
 const Footer = () => {
+  const inputRef = useRef<HTMLInputElement>(null);
+
   const handleClickTreatments = () => {
     document
       .getElementById("#treatments")!
@@ -22,6 +24,14 @@ const Footer = () => {
     document.getElementById("#contact")!.scrollIntoView({ behavior: "smooth" });
   };
 
+  const submitHandler = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (inputRef.current?.value !== "") {
+      inputRef.current!.value = "";
+    }
+  };
+
   return (
     <Fragment>
       <div className={clasess.background}></div>
@@ -34,23 +44,22 @@ const Footer = () => {
             <span onClick={handleClickContact}>Contact</span>
           </div>
         </div>
-        {/* <div className={clasess["container-newsletter"]}>
+        <div className={clasess["container-newsletter"]}>
           <h3>Sign up for our Newsletter</h3>
           <div className={clasess["container-newsletter__form"]}>
-            <form>
+            <form onSubmit={submitHandler}>
               <input
+                ref={inputRef}
                 placeholder="Email"
                 required
                 autoComplete="off"
                 type="email"
                 id="email"
               ></input>
-              <button type="submit" onClick={handlerSubmit}>
-                Sign Up
-              </button>
+              <button>Sign Up</button>
             </form>
           </div>
-        </div> */}
+        </div>
         <div className={clasess["container-social"]}>
           <a href="https://www.instagram.com/aboutme.tj/">
             <img src={instagram} alt="Icon 1" className={clasess.icons}></img>
