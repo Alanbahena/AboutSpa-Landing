@@ -1,6 +1,5 @@
 import React from "react";
 
-import image1 from "../../assets/images/Treatment1.jpg";
 import botox from "../../assets/images/botox.jpg";
 import foxy from "../../assets/images/foxy.jpg";
 import hydra from "../../assets/images/hydra.jpg";
