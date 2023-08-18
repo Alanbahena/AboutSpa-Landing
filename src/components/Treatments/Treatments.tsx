@@ -1,6 +1,13 @@
 import React from "react";
 
 import image1 from "../../assets/images/Treatment1.jpg";
+import botox from "../../assets/images/botox.jpg";
+import foxy from "../../assets/images/foxy.jpg";
+import hydra from "../../assets/images/hydra.jpg";
+import marcaje from "../../assets/images/marcaje.jpg";
+import relleno from "../../assets/images/relleno.jpg";
+import rino from "../../assets/images/rino.jpg";
+
 import clasess from "./Treatments.module.scss";
 
 const Treatments = () => {
@@ -13,7 +20,7 @@ const Treatments = () => {
         <div className={clasess["container-card"]}>
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
-            <img src={image1} alt="" loading="lazy"></img>
+            <img src={botox} alt="" loading="lazy"></img>
             <h3>Botox</h3>
           </div>
           <p>
@@ -27,7 +34,7 @@ const Treatments = () => {
         <div className={clasess["container-card"]}>
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
-            <img src={image1} alt="" loading="lazy"></img>
+            <img src={relleno} alt="" loading="lazy"></img>
             <h3>Relleno de labios</h3>
           </div>
           <p>
@@ -42,7 +49,7 @@ const Treatments = () => {
         <div className={clasess["container-card"]}>
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
-            <img src={image1} alt="" loading="lazy"></img>
+            <img src={rino} alt="" loading="lazy"></img>
             <h3>Rinomodelación</h3>
           </div>
           <p>
@@ -57,7 +64,7 @@ const Treatments = () => {
         <div className={clasess["container-card"]}>
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
-            <img src={image1} alt="" loading="lazy"></img>
+            <img src={foxy} alt="" loading="lazy"></img>
             <h3>Foxxy eyes</h3>
           </div>
           <p>
@@ -71,7 +78,7 @@ const Treatments = () => {
         <div className={clasess["container-card"]}>
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
-            <img src={image1} alt="" loading="lazy"></img>
+            <img src={hydra} alt="" loading="lazy"></img>
             <h3>Hydrafacial</h3>
           </div>
           <p>
@@ -86,7 +93,7 @@ const Treatments = () => {
         <div className={clasess["container-card"]}>
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
-            <img src={image1} alt="" loading="lazy"></img>
+            <img src={marcaje} alt="" loading="lazy"></img>
             <h3>Marcaje Mandibular</h3>
           </div>
           <p>
