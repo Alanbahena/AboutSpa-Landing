@@ -64,7 +64,7 @@ const Treatments = () => {
           <div className={clasess["container-card__top"]}>
             <div className={clasess.layer}></div>
             <img src={foxy} alt="" loading="lazy"></img>
-            <h3>Foxxy eyes</h3>
+            <h3>Foxy eyes</h3>
           </div>
           <p>
             Eleva tu mirada con la tendencia Foxxy Eyes. Nuestro equipo experto
