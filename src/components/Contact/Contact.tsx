@@ -20,8 +20,8 @@ mapboxgl.workerClass =
 
 const Contact = () => {
   const token = process.env.REACT_APP_MAPBOX_KEY;
-  const longitude = -117.02564098157923;
-  const latitude = 32.53015281401328;
+  const longitude = -117.02593334086971;
+  const latitude = 32.529973628248555;
   const zoom = 13;
 
   return (
