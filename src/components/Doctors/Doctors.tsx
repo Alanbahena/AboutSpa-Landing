@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 
-import Doctor1 from "../../assets/images/Dr.jpg";
 import andrea from "../../assets/images/andrea.jpg";
 import nayelly from "../../assets/images/nayelly.jpg";
 import tanya from "../../assets/images/tanya.jpg";
