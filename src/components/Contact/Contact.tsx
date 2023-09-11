@@ -37,11 +37,18 @@ const Contact = () => {
         </div>
         <div className={clasess["container-text__box"]}>
           <img src={phone} alt="Location Icon"></img>
-          <span>+52 663 3218 306</span>
+          <span>
+            +52 663 3218 306 <br></br>
+            619 706 0205
+          </span>
         </div>
         <div className={clasess["container-text__box"]}>
           <img src={clock} alt="Location Icon"></img>
-          <span>Monday - Saturday 10AM - 5PM </span>
+          <span>
+            Monday - Friday | 10am - 5pm <br></br>
+            Saturdays | 9am - 5pm <br></br>
+            Sundays | 10am - 2pm
+          </span>
         </div>
       </div>
       <div className={clasess["container-map"]}>
