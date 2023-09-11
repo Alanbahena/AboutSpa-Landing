@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 import andrea from "../../assets/images/andrea.jpg";
 import nayelly from "../../assets/images/nayelly.jpg";
 import tanya from "../../assets/images/tanya.jpg";
-import miguel from "../../assets/images/miguel.jpg";
+// import miguel from "../../assets/images/miguel.jpg";
 
 import clasess from "./Doctors.module.scss";
 
@@ -89,7 +89,7 @@ const Doctors = () => {
             </p>
           </div>
         </div>
-        <div className={clasess["container-content"]}>
+        {/* <div className={clasess["container-content"]}>
           <div>
             <h3>Dr. Miguel Magaña</h3>
             <p>
@@ -102,7 +102,7 @@ const Doctors = () => {
             </p>
           </div>
           <img src={miguel} alt="Doctor" loading="lazy"></img>
-        </div>
+        </div> */}
       </div>
     </Fragment>
   );
